@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBSender", "SBSender\SBSender.csproj", "{EC4C6828-83CD-426F-9ADA-20A446E7F426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBShared", "SBShared\SBShared.csproj", "{171EEDEC-0D1A-4569-90E0-B2A9E2B51350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBReceiver", "SBReceiver\SBReceiver.csproj", "{D3CF17EE-7C49-451F-906C-3C2618DBA5E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC4C6828-83CD-426F-9ADA-20A446E7F426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4C6828-83CD-426F-9ADA-20A446E7F426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4C6828-83CD-426F-9ADA-20A446E7F426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4C6828-83CD-426F-9ADA-20A446E7F426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171EEDEC-0D1A-4569-90E0-B2A9E2B51350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171EEDEC-0D1A-4569-90E0-B2A9E2B51350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171EEDEC-0D1A-4569-90E0-B2A9E2B51350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171EEDEC-0D1A-4569-90E0-B2A9E2B51350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CF17EE-7C49-451F-906C-3C2618DBA5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CF17EE-7C49-451F-906C-3C2618DBA5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CF17EE-7C49-451F-906C-3C2618DBA5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CF17EE-7C49-451F-906C-3C2618DBA5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C821674B-9A57-418F-83D8-EBAD2346CE89}
+	EndGlobalSection
+EndGlobal

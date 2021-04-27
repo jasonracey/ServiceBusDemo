@@ -2,7 +2,7 @@
 
 namespace SBShared.Models
 {
-    internal class PersonModel
+    public class PersonModel
     {
         [Required]
         public string FirstName { get; set; }
